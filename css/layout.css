@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    display: inline-block;
+    background-color: red;
+}
+
+.row {
+    width: 900px;
+    margin: 0 calc(50% - 450px);
+    display: inline-block;
+    background-color: blue;
+    padding: 0 20px;
+}
+@media (max-width: 1000px) {
+    .row {
+        width: 600px;
+        margin: 0 calc(50% - 300px);
+    }
+}
+
+@media (max-width: 700px) {
+    .row {
+        width: 100%;
+    }
+}
+
+
+.row-short {
+    width: 600px;
+    margin: 0 calc(50% - 300px);
+}
+
+@media (max-width: 700px) {
+    .row-short {
+        width: 100%;
+    }
+}
