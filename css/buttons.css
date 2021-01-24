@@ -1,0 +1,18 @@
+header button {
+    padding: 10px 5px;
+    display: inline-block;
+    float: right;
+    width: 25%;
+    background-color: #59A3FC;
+    color: #fff;
+    border-style: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+header button:focus{
+    outline: none;
+}
+header button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
