@@ -12,8 +12,15 @@
         width: 600px;
         margin: 0 calc(50% - 300px);
     }
+    .container-height {
+        height: 100px;
+    }
 }
-
+@media (max-width: 700px) {
+    .container-height {
+        height: 220px;
+    }
+}
 @media (max-width: 700px) {
     .row {
         width: 100%;
@@ -32,5 +39,7 @@
 @media (max-width: 700px) {
     .row-short {
         width: 100%;
+        padding: 20px;
+        margin: 0;
     }
 }
