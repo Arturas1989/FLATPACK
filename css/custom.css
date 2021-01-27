@@ -84,13 +84,13 @@ nav > a {
     color: var(--content-color);
     position: absolute;
     top: 50%;
-    left: 0;
-    transform: translateY(-50%);  
+    left: 50%;
+    transform: translate(-50%, -50%);  
 }
 h1 {
     text-transform: uppercase;
     width: 100%;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     position: relative;
 }
 h1::after{
@@ -100,14 +100,11 @@ h1::after{
     height: 5px;
     background-color: var(--content-color);
     position: absolute;
-    bottom: 18%;
+    bottom: -5%;
     left: 46%;
-    
-    
-
 }
 .hero p{
     line-height: 30px;
     color: #fff8;
-
+    padding-top: 20px;
 }
