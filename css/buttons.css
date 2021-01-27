@@ -29,7 +29,7 @@ header button:hover{
     font-weight: bold;
 }
 .hero button:focus{
-    /* outline: none; */
+    outline: none;
 }
 .hero button:hover{
     background-color: var(--content-color);
