@@ -1,3 +1,9 @@
+/* custom */
+a{
+    text-decoration: none;
+}
+
+
 /* 1st row header */
 
 header {
@@ -101,10 +107,58 @@ h1::after{
     background-color: var(--content-color);
     position: absolute;
     bottom: -5%;
-    left: 46%;
+    left: 44%;
 }
 .hero p{
     line-height: 30px;
     color: #fff8;
     padding-top: 20px;
+}
+/* 2nd row hero end */
+
+/* 3rd row 2 column start */
+.column {
+    width: 48%;
+    padding: 0 20px;
+    display: inline-block;
+    float: left;
+    text-transform: capitalize;
+}
+.column:last-of-type {
+    float: right;
+}
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #3C3E4B;
+}
+.column p{
+    color: #0005;
+    text-transform: initial;
+    line-height: 1.5;
+}
+.column a {
+    text-transform: uppercase;
+    line-height: 80px;
+    color: #6FA2D1;
+    font-weight: 500;
+}
+.column a:hover {
+    color: blue;
+}
+.background-color {
+    background-color: #0001;
+}
+
+@media (max-width: 700px) {
+    .column {
+        width: 100%;
+        padding: 0 20px;
+        
+    }
+    .h2{
+        margin-top: 0;
+    }
 }
