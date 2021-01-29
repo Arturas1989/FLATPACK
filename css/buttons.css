@@ -39,3 +39,22 @@ header button:hover{
     transition: 0.5s;
 
 }
+
+
+.column-row4 button {
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #59A3FC;
+    color: var(--content-color);
+    border-style: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.column-row4 button:focus{
+    outline: none;
+}
+.column-row4 button:hover{
+    background-color: #2d84f0;
+    cursor: pointer;
+}
