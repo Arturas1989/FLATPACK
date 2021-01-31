@@ -33,7 +33,7 @@
                 <a href="">Home</a>
                 <a href="">Work</a>
                 <a href="">Contact</a>
-                <button>Buy Now</button>
+                <button type="button" onclick="window.location.href='#';">Buy Now</button>
             </nav>
         </header>
     </div>
@@ -45,7 +45,7 @@
             
             <h1>new elegant design</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem inventore hic voluptatibus distinctio deleniti consequuntur nulla sequi cupiditate doloribus assumenda?</p>
-            <button onclick="window.location.href='#';">get a free qoute</button>
+            <button type="button" onclick="window.location.href='#';">get a free qoute</button>
         </div>
     </div>
     </div>
@@ -77,68 +77,90 @@
                 <img src="./img/photos/picture1.png" alt="">
                 <h3>Welcome to Gym</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <button>Join Now</button>
+                <button class="blue-button" type="button" onclick="window.location.href='#';">Join Now</button>
             </div>
             <div class="column-row4">
                 <img src="./img/photos/picture2.png" alt="">
                 <h3>Fitness Activities</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                <button href="#">Join Now</button>
+                <button class="blue-button" type="button" onclick="window.location.href='#';">Join Now</button>
             </div>
             <div class="column-row4">
                 <img src="./img/photos/picture3.png" alt="">
                 <h3>High quality Staff</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <button href="#">Join Now</button>
+                <button class="blue-button" type="button" onclick="window.location.href='#';">Join Now</button>
             </div>
         </div>
     </div>
     <!-- 4th row three columns end -->
 
     <!-- 5th row video content 2 columns start -->
-    <div>
-        <div>
-            <div>
-                <h4></h4>
-                <p></p>
+    <div class="container background-color">
+        <div class="row margin-top  bottom">
+            <div class="column-5th-row">
+                <h4>watch the video</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem eveniet tempora dolores asperiores, quod voluptates optio nemo veritatis quibusdam quam deserunt iste repudiandae error incidunt aspernatur illo velit architecto inventore alias quisquam, aut ratione numquam. Quibusdam atque quo ut dignissimos.</p>
             </div>
-            <div>
-
+            <div class="column-5th-row">
+                <video width="100%" height="180" controls>
+                    <source src="./video/What is Node.js Exactly_ - a beginners introduction to Nodejs.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
     </div>
-    <!-- 5th row video content 2 columns start -->
+    <!-- 5th row video content 2 columns end -->
 
     <!-- 6th row 2 column with form start-->
-    <div>
-        <div>
-            <div>
+    <div class="container">
+        <main class="row margin-top">
+            <div class="sixth-row-column1">
                 <div>
-                    <img src="" alt="">
-                    <div>
-                        <h5></h5>
-                        <p></p>
+                    <div class="img-column">
+                        <img src="./img/column-pictures/pencils.png" alt="">
+                    </div>
+                    <div class="text-column">
+                        <h5>High Quality Tutorials</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellendus maxime distinctio ut?</p>
                     </div>
                 </div>
                 <div>
-                    <img src="" alt="">
-                    <div>
-                        <h5></h5>
-                        <p></p>
+                    <div class="img-column">
+                        <img src="./img/column-pictures/credit-card.png" alt="">
+                    </div>
+                    <div class="text-column">
+                        <h5>Save Your Money</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel id suscipit tempora voluptatibus?</p>
                     </div>
                 </div>
                 <div>
-                    <img src="" alt="">
-                    <div>
-                        <h5></h5>
-                        <p></p>
+                    <div class="img-column">
+                        <img src="./img/column-pictures/notebook.png" alt="">
+                    </div>
+                    <div class="text-column">
+                        <h5>NoteBook is Also Available</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti modi expedita beatae excepturi.</p>
                     </div>
                 </div>
             </div>
-            <div>
-                <form action=""></form>
+            <div class="sixth-row-column2">
+                <div class="background-color">
+                    <h5>Join Us Now</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <form>
+                        <input type="name" placeholder="Your Full Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="phone number" placeholder="Your Phone Number" required>
+                    </form>
+                    <button class="blue-button style" type="button" onclick="window.location.href='#';">Send information</button> 
+                </div>
+                <div class="div-p-note">
+                    <p id="p">*Note: Bundle ends in two weeks from now</p>
+                </div> 
             </div>
-        </div>
+             
+        </main>
     </div>
     <!-- 6th row 2 column with form start-->
 
