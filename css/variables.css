@@ -1,5 +1,7 @@
 :root{
     --content-color: #fff;
     --button-color: #59A3FC;
-    --paragraph-color: #0005;
+    --paragraph-color-on-grey-background: #0005;
+    --paragraph-color-on-white-background: #B9B8BE;
+
 }
