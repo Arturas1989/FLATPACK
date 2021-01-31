@@ -9,6 +9,9 @@
     margin: 0 calc(50% - 450px);
     padding: 0 20px;
 }
+.margin-top{
+    margin-top: 60px;
+}
 @media (max-width: 1000px) {
     .row {
         width: 600px;
