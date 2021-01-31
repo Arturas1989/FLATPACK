@@ -41,7 +41,7 @@ header button:hover{
 }
 
 
-.column-row4 button {
+.blue-button {
     padding: 10px 20px;
     display: inline-block;
     background-color: #59A3FC;
@@ -51,10 +51,18 @@ header button:hover{
     border-radius: 5px;
     margin-bottom: 60px;
 }
-.column-row4 button:focus{
+.blue-button:focus{
     outline: none;
 }
-.column-row4 button:hover{
+.blue-button:hover{
     background-color: #2d84f0;
     cursor: pointer;
 }
+.style {
+    padding: 10px 35px;
+    margin: 10px 0;
+    margin-bottom: 40px;
+}
+
+
+

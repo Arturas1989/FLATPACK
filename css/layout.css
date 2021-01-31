@@ -12,6 +12,9 @@
 .margin-top{
     margin-top: 60px;
 }
+.bottom {
+    margin-bottom: 100px;
+}
 @media (max-width: 1000px) {
     .row {
         width: 600px;

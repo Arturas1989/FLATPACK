@@ -245,12 +245,14 @@ video{
 /* 5th row video content 2 columns end */
 
 /* 6th row 2 column with form start */
+
 .sixth-row-column1{
     display: inline-block;
     float: left;
     width: 60%;
     margin-top: 30px;
 }
+
 .sixth-row-column1 > div{
     display: inline-block;
     float: left;
@@ -287,6 +289,105 @@ h5{
     line-height: 25px;
     color: var(--paragraph-color-on-white-background);
 }
+
+.sixth-row-column2{
+    display: inline-block;
+    float: right;
+    width: 35%;
+    margin-left: 3%;
+    
+}
+.sixth-row-column2>div:first-of-type{
+    padding: 0 20px;
+}
+.sixth-row-column2 h5{
+    padding-top: 40px;
+}
+input {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    padding-left: 10px;
+    margin: 10px 0;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+.sixth-row-column2 > h5 {
+    margin-top: 45px;
+}
+.sixth-row-column2  p {
+    font-size: 15px;
+    margin: 20px 0;
+    color: var(--paragraph-color-on-grey-background);
+}
+.div-p-note{
+    display: inline-block;
+    width: 100%;
+    background-color: #ddd;
+}
+#p{
+    font-size: 13px;
+    text-align: center;
+}
+@media (max-width: 1100px){
+    
+    .sixth-row-column1{
+        width: 700px;
+        margin: 0 calc(50% - 350px);
+    }
+    .img-column{
+        margin-left: 0;
+        margin-right: 3%;
+        width: 10%;
+    }
+    .img-column > img{
+        position: static;
+        top: 0;
+        left: 0;
+        transform: translateY(0%);
+    }
+
+    .text-column {
+        width: 87%;
+    }
+    .sixth-row-column2{
+        width: 300px;
+        margin: 0 calc(50% - 150px);
+        margin-top: 50px;  
+    }
+}
+@media (max-width: 900px){
+    .sixth-row-column1{
+        width: 100%;
+        margin: 0;
+        padding: 0 20px;
+    }
+    .text-column {
+        width: 82%;
+    }
+    .img-column{
+        margin-left: 0;
+        margin-right: 8%;
+        width: 10%;
+    }
+}
+@media (max-width: 700px){
+    .text-column {
+        width: 100%;
+    }
+    
+}
+@media (max-width: 400px){
+    .img-column{
+        margin-right: 0;
+        width: 100%;
+    }
+    
+}
+/* 6th row 2 column with form end */
+
 
 
 
