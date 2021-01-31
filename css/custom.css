@@ -242,6 +242,48 @@ video{
 
 
 }
+/* 5th row video content 2 columns end */
+
+/* 6th row 2 column with form start */
+.sixth-row-column1{
+    display: inline-block;
+    float: left;
+    width: 60%;
+    margin-top: 30px;
+}
+.sixth-row-column1 > div{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    margin: 20px 0;
+}
+.img-column{
+    display: inline-block;
+    float: left;
+    width: 26%;
+    height: 100px;
+    margin-right: 10%;
+    text-align: center;
+    position: relative;
+}
+.img-column > img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.text-column {
+    float: left;
+    display: inline-block;
+    width: 64%;
+}
+
+
+h5{
+    margin-bottom: 20px;
+}
+.sixth-row-column1 p{
+    line-height: 25px;
+}
 
 
 
