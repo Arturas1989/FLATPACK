@@ -8,7 +8,6 @@ a{
 
 header {
     display: inline-block;
-    height: 70px;
     position: relative;
 }
 header > div {
@@ -131,7 +130,6 @@ h1::after{
     padding-right: 20px;
 }
 h2 {
-    margin-top: 30px;
     margin-bottom: 15px;
     font-size: 17px;
     font-weight: 600;
@@ -143,10 +141,11 @@ h2 {
     line-height: 1.5;
 }
 .column a {
+    display: inline-block;
     text-transform: uppercase;
-    line-height: 80px;
     color: #6FA2D1;
     font-weight: 500;
+    margin-top: 30px;
 }
 .column a:hover {
     color: blue;
@@ -164,6 +163,9 @@ h2 {
     .h2{
         margin-top: 0;
     }
+    .a {
+        margin-bottom: 30px;
+    }
 }
 /* 3rd row 2 column end */
 
@@ -175,13 +177,17 @@ h2 {
     display: inline-block;
     float: left;
     width: 27.3%;
-    margin: 0 3%;
+    margin: 0px 3%;
     text-align: center;
 }
 @media (max-width: 1000px) {
     .column-row4 {
         width: 44%;
-        padding: 0 20px;  
+        padding: 0 20px;
+        margin-bottom: 50px;  
+    }
+    .column-row4:nth-of-type(3) {
+        margin-bottom: 0px;  
     }
     .column-row4:last-of-type {
         width: 100%;
@@ -191,8 +197,7 @@ h2 {
 @media (max-width: 700px) {
     .column-row4 {
         width: 100%;
-        padding: 0 20px;
-        margin: 0;  
+        padding: 0 20px;  
     }
 }
 h3{
@@ -218,7 +223,7 @@ h3{
 h4{
     text-transform: capitalize;
     font-size: 30px;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 .column-5th-row > p {
@@ -237,7 +242,8 @@ video{
     .column-5th-row:last-of-type {
         padding: 0 20px;
         width: 330px;
-        margin: 30px calc(50% - 165px);
+        margin: 0 calc(50% - 165px);
+        margin-top: 30px;
     }
 
 
@@ -388,7 +394,61 @@ input:focus{
 }
 /* 6th row 2 column with form end */
 
+/* 7th logo row start */
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 1000px) {
+    .flex-box{
+        display: inline-block;
+    }
+    .logo-group1 {
+        display: inline-block;
+        width: 34%;
+        margin: 0 2%;
+        float: left;
+        object-fit: none;
+        height: 100px;
+    }
+    .logo-group1:nth-of-type(1) {
+        width: 18%;
+        margin-left: 0;
+    }
+    .logo-group2 {
+        display: inline-block;
+        width: 21%;
+        margin: 0 2%;
+        float: left;
+        object-fit: none;
+        height: 100px;
+    }
+}
+
+@media (max-width: 700px) {
+    .row .logo-group1 {
+        width: 100%;
+        margin: 0;
+    }
+    .logo-group2 {
+        width: 100%;
+        margin: 0;
+    }
+}
 
 
+/* 7th logo row start */
+
+
+/* 8th row changing quotes start */
+.height {
+    height: 300px;
+}
+.background-color-qoute-section{
+    background-color: #59A3FC;
+}
+/* 8th row changing quotes end */
 
 

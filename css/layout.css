@@ -6,19 +6,22 @@
 .row {
     display: inline-block;
     width: 900px;
-    margin: 0 calc(50% - 450px);
+    margin: 30px calc(50% - 450px);
     padding: 0 20px;
 }
-.margin-top{
-    margin-top: 60px;
+.row-margin {
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
-.bottom {
-    margin-bottom: 100px;
-}
+
 @media (max-width: 1000px) {
     .row {
         width: 600px;
-        margin: 0 calc(50% - 300px);
+        margin: 30px calc(50% - 300px);
+    }
+    .row-margin {
+        margin-top: 70px;
+        margin-bottom: 70px;
     }
     .container-height {
         height: 100px;
@@ -26,13 +29,14 @@
 }
 @media (max-width: 700px) {
     .container-height {
-        height: 220px;
+        height: 280px;
     }
 }
 @media (max-width: 700px) {
     .row {
         width: 100%;
-        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
